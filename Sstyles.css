@@ -1,0 +1,45 @@
+body{
+    background-color: dodgerblue;
+    height: 100%;
+}
+h1{
+    color: whitesmoke;
+    background-color: darkblue;
+    border: 2px double white;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*
+#clock{
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    outline:2px solid darkgoldenrod;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    margin-left: 500px;
+    position: relative;
+}
+*/
+#clock{
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid darkgoldenrod;
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    position: absolute;
+    top: -280px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    font-family: fantasy;
+}
