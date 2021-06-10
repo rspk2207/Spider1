@@ -8,7 +8,7 @@ function time()
     sec = mod(sec);
     min = mod(min);
     hour = mod(hour); 
-    ftime.innerHTML = hour + ":" + min + ":" +sec;
+    ftime.innerHTML = "<br>" + hour + ":" + min + ":" +sec;
 }    
 function mod(numb)
 {

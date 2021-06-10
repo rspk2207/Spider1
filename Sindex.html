@@ -10,8 +10,27 @@
         <p>WELCOME TO SIPDER PLANNER: A SITE FOR PLANNING EVENTS AND MARKING THEM</p>
         <div id="clock"></div>
         <div class="calendar"></div>
-        <div class="todo"></div>
+        <div id="todo">
+            <h2>DO YOU WANT TO ADD AN EVENT REMINDER?</h2>
+            <label for="event">ENTER THE EVENT TO BE DONE :</label>
+            <input type="text" id="events"><br>
+            <label for="dates">ENTER THE DATE :</label>
+            <input type="date" id="dates"><br>
+            <button type="submit" id="sub">Submit</button>
+            <table id="tab">
+                <thead><tr>
+                    <td id="c1">EVENT</td>
+                    <td id="c2">DATE</td>     
+                    <td id="c3"></td>   
+                </tr>
+                </thead>
+                <tbody id="tabody">
+                </tbody>
+            </table>
+            
+        </div>
+        <p id="thanks">Thanks for visiting the site</p>
     <script src="Sscript.js"></script>
-    </body>
+    <script src="Sscript1.js" defer></script>
     </body>
 </html>

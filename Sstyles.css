@@ -1,7 +1,18 @@
 body{
-    background-color: dodgerblue;
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
     height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+    background-size:cover;
 }
+/* body{
+    background-image: linear-gradient(to bottom, rgba(23, 18, 188,1),rgba(239,206,38,1));
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+} */
 h1{
     color: whitesmoke;
     background-color: darkblue;
@@ -30,16 +41,104 @@ p{
 }
 */
 #clock{
-    height: 40px;
-    width: 150px;
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
     padding: 10px;
     background-color: black;
-    border: 2px solid darkgoldenrod;
-    color: white;
+    border: 10px solid rgba(23, 18, 188,1) ;
+    color: rgba(239,206,38,1);
     font-size: 30px;
     margin: auto;
-    position: absolute;
-    top: -280px; left: 0; bottom: 0; right: 0;
+    position: relative;
+    top: 30px; left: 0px; bottom: 0; right: 0;
     text-align: center;
     font-family: fantasy;
+}
+#todo{
+    margin: auto;
+    overflow: auto;
+    height: 300px;
+    width: 600px;
+    padding: 20px 10px 0px 10px;
+    position: absolute;
+    top: 500px; left: 0; bottom: 0; right: 0;
+    color: black;
+    border:1px solid black;
+    outline:3px solid darkgoldenrod;
+}
+input[type="text"]{
+    width: 250px;
+    height: 20px;
+    border:4px solid royalblue;
+    transition: width 0.5s linear;
+}
+input[type="text"]:hover{
+    width: 300px;
+}
+input[type="date"]{
+    border:4px solid royalblue;
+    height: 22px;
+    width: 130px;
+    margin-left: 109px;
+    margin-top: 10px;
+    transition: width 0.5s linear;
+}
+input[type="date"]:hover{
+    width: 140px;
+}
+#sub{
+    width: 100px;
+    height: 25px;
+    background-color: royalblue;
+    border:4px solid darkgoldenrod;
+    color: black;
+    height: 32px;
+    margin: auto;
+    position: absolute;
+    top: 60px; left: 0; bottom: 0; right: 0;
+    transition: background-color 0.5 linear;
+    transition: width 0.5s linear;
+    cursor: pointer;
+}
+#sub:hover{
+    width: 150px;
+    background-color: rgb(57, 85, 167);
+    color: black;
+}
+#tab{
+    margin: auto;
+    position: relative;
+    top: 70px; left: 0; bottom: 0; right: 0;
+    height: 50%;
+    width: 75%;
+    overflow: auto; 
+    background-color: rgb(59, 94, 199);
+    border: 1px solid black;
+    outline: 4px solid darkgoldenrod;
+}
+th{
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: rgb(42, 68, 148);
+}
+#thanks{
+    margin: auto;
+    position: relative;
+    top: 550px; left: 0; bottom: 0; right: 0;
+
+}
+.delete{
+    height: 30px;
+    width: 60px;
+    background-color: darkgoldenrod;
+    border:1px solid black;
+    outline: 3px solid royalblue;
+    cursor: pointer;
+
+}
+#c1,#c2,#c3{
+    background-color: darkgoldenrod;
+    border:2px solid black;
 }
